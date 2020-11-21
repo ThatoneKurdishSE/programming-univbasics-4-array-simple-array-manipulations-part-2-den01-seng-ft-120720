@@ -2,7 +2,7 @@ def using_concat (first_name="raz", last_name="aljaf")
 first_name.concat last_name
 end
 def using_insert(array, key)
-array.insert[4]
+key.insert array[4]
 end
 def using_uniq(array)
   array.uniq
