@@ -4,7 +4,7 @@ end
 def using_insert(array, element)
   array=["raz","is","trying","very","hard","at","life","and"]
   element="rawa"
-array.insert
+array.insert element[4]
 end
 def using_uniq(array)
   array.uniq
